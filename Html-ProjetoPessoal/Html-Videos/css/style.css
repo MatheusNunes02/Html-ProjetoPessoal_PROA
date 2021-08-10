@@ -1,0 +1,50 @@
+body{
+    height: auto;
+    margin-top: 0px;
+    margin:0px ;    
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+#content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    width: 30%;
+    margin-left: 35%;
+}
+
+nav ul {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    margin-top: 0px;
+}
+
+ul li {
+    display: inline;
+    padding: 30px;
+}
+
+img {   
+    max-height: 300px;
+}
+
+.timelineItem {
+    margin-top: 50px;
+    border-top: solid 1px #E5E5E5;
+}
+
+.ano{
+    margin-top: 100px;
+}
